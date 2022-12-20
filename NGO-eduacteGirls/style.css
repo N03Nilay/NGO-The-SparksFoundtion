@@ -257,6 +257,33 @@ html {
 .aboutcontent a:hover {
     background-position: right;
 }
+
+.impact{
+    margin-top: 7%;
+}
+.heading-impact{
+    font-size: 150%;
+    text-align: center;
+}
+
+.impact-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    margin-top: 2%;
+}
+.impact-points{
+    color: white;
+    font-size: 160%;
+    width: 20%;
+    height: 6rem;
+    padding: 1%;
+    margin: 1%;
+    background: rgb(113, 1, 161);
+    border: 2px solid rgb(71, 2, 71);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+}
 @media only screen and (max-width : 700px ) {
 
     /* *******************************   About us  **************************************** */
@@ -296,32 +323,13 @@ html {
     .aboutcontent h1 {
         font-size: 30px;
     }
-}
-.impact{
-    margin-top: 7%;
-}
-.heading-impact{
-    font-size: 150%;
-    text-align: center;
-}
-
-.impact-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 5%;
-    margin-top: 2%;
-}
-.impact-points{
-    color: white;
-    font-size: 160%;
-    width: 20%;
-    height: 6rem;
-    padding: 1%;
-    margin: 1%;
-    background: rgb(113, 1, 161);
-    border: 2px solid rgb(71, 2, 71);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 20px;
+    .impact{
+        width: 100%;
+        padding:3%;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+        font-size: 50%;
+    }
 }
 
 /* ************************************  aboutus  ************************** */
